@@ -4,7 +4,7 @@
   "description": "Generate json files containing the prefixes",
   "main": "index.js",
   "scripts": {
-    "test": "standard index.js"
+    "test": "standard index.js && node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "sheetify": "^6.1.0"
   },
   "devDependencies": {
-    "standard": "^10.0.2"
+    "browserify": "^14.4.0",
+    "standard": "^10.0.2",
+    "tape": "^4.8.0"
   }
 }
