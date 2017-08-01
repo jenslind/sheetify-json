@@ -1,0 +1,28 @@
+{
+  "name": "sheetify-json",
+  "version": "0.1.0",
+  "description": "Generate json files containing the prefixes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenslind/sheetify-json.git"
+  },
+  "keywords": [
+    "sheetify",
+    "plugin",
+    "transform",
+    "json"
+  ],
+  "author": "Jens Lind <jens@jensl.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenslind/sheetify-json/issues"
+  },
+  "homepage": "https://github.com/jenslind/sheetify-json#readme",
+  "dependencies": {
+    "sheetify": "^6.1.0"
+  }
+}
